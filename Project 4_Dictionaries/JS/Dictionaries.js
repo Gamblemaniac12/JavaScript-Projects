@@ -7,4 +7,8 @@ function my_Dictionaries() {
         Sound:"Bark!"
     };
     document.getElementById("Dictionaries").innerHTML = Animal.Sound;
-}
+};
+
+console.log("After removal: ");
+delete(my_Dictionaries.Breed);
+console.log(my_Dictionaries);

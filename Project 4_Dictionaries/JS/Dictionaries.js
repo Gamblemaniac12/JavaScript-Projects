@@ -10,5 +10,4 @@ function my_Dictionaries() {
 };
 
 console.log("After removal: ");
-delete(my_Dictionaries.Breed);
-console.log(my_Dictionaries);
+delete(my_Dictionaries.Sound);

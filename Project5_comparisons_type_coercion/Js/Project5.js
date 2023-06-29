@@ -23,12 +23,12 @@ function not_Function() {
     document.getElementById("Not").innerHTML = !(20 > 10);
 }
 
-X = 10;
+x = 10;
 y = 10;
 document.write(x === y);
 
 document.write(3 == 11);
 
 const a = 3;
-const b = -2;
-console.log(a > 0 && b > 0);
+const b = (a > 0 && b > 0);
+(a > 0 && b > 0);

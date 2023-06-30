@@ -9,13 +9,22 @@ typeof function () {}         // Returns "function"
 typeof myCar                  // Returns "undefined" *
 typeof null            
 
-let str = 20;
-//concatenating at the end of integer variable
-str += " Testing '+=' operator: ";  
-str += 42 + ' ';
-str += {} + ' ';
-str += null;
-console.log(str);
+var newParagraph = document.createElement("p"); 
+var newText = document.createTextNode("'google' + '.' + ' com=" + 'google' + '.' + ' com');
+newParagraph.appendChild(newText); 
+document.body.appendChild(newParagraph); 
+
+var string1= 'google';
+var newParagraph1 = document.createElement("p"); 
+var newText1 = document.createTextNode('string1='+string1);
+newParagraph1.appendChild(newText1);
+document.body.appendChild(newParagraph1);
+
+string1 +='.com';
+var newParagraph1 = document.createElement("p"); 
+var newText1 = document.createTextNode('string1='+string1);
+newParagraph1.appendChild(newText1);
+document.body.appendChild(newParagraph1); 
 
 document.write(5 > 10 || 10 > 20);
 
@@ -30,5 +39,5 @@ document.write(x === y);
 document.write(3 == 11);
 
 const a = 3;
-const b = (a > 0 && b > 0);
-(a > 0 && b > 0);
+const b = 5;
+document.write(a > 0 && b > 0);

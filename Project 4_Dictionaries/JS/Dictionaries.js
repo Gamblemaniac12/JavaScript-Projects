@@ -1,4 +1,6 @@
 function my_Dictionaries() {
+    document.write(delete(my_Dictionaries.Sound)
+    ,document.getElementById("Dictionaries").innerHTML = Animal.Sound)
     var Animal = {
         Species:"Dog",
         Color:"Black",
@@ -6,8 +8,7 @@ function my_Dictionaries() {
         Age:5,
         Sound:"Bark!"
     };
-    document.getElementById("Dictionaries").innerHTML = Animal.Sound;
+    console.log("After removal: ");
+    
 };
 
-console.log("After removal: ");
-delete(my_Dictionaries.Sound);
